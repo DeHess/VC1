@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="70">
+                <g fill="#D22B2B">
+                <path d="M37 42.4H27L23 2h18z"> </path>
+                <ellipse cx="32" cy="54.4" rx="7.7" ry="7.6"> </ellipse>
+                </g>
+                <animateTransform
+                    attributeName="transform"
+                    type="translate"
+                    values="-2,-2; 2,2; -2,2; 2,-2; -2,-2"
+                    dur="0.1s"
+                    repeatCount="indefinite"
+                />
+</svg>
