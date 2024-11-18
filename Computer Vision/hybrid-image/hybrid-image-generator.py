@@ -13,6 +13,7 @@ def plot_figure(images: list, titles: list, rows: int, columns: int, fig_width=1
         plt.imshow(image, 'gray')
         plt.axis('off')
         plt.title(title)
+    plt.show()
  
 
 def distance(point1, point2):
@@ -54,8 +55,8 @@ def hybrid_images(image1, image2, D0 = 50):
     return hybrid
 
 
-A = cv2.imread('/cat.png',cv2.IMREAD_COLOR) # high picture
-B = cv2.imread('panda.png',cv2.IMREAD_COLOR) # low picture
+A = cv2.imread('einstein.png',cv2.IMREAD_COLOR) # high picture
+B = cv2.imread('monroe.png',cv2.IMREAD_COLOR) # low picture
 
 # Convert both images to Grayscale to avoid any Color Channel Issue
 A_grayscale = cv2.cvtColor(A, cv2.COLOR_BGR2GRAY)
